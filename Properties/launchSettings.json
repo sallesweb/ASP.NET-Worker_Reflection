@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "ASP.NET_Worker_Reflection": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
