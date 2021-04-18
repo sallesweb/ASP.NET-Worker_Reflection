@@ -1,12 +1,12 @@
-using System;
-
 namespace ASP.NET_Worker_Reflection.Commanders
 {
-    public sealed class TaskOneCommander
+    using Serilog.Core;
+
+    public sealed class TaskOneCommander : Commander
     {
-        public void Execute()
+        public override void Execute(Logger logger)
         {
-            Console.WriteLine("Cheguei aqui");
+            logger.Information("Implementação!");
         }
     }
 }
